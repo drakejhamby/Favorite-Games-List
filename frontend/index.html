@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <script src="./script.js" defer></script>
+    <title>Favorite Games List</title>
+</head>
+<body>
+    <h1>My Favorite Games</h1>
+    <form id="input-form">
+        <label for="title">Game Title:</label>
+        <input id="title" type="text" placeholder="Game Title" required/>
+        <label for="platform">Platform:</label>
+        <input id="platform" type="text" placeholder="Platform" required/>
+        <label for="release-year">Release Year:</label>
+        <input id="release-year" type="number" placeholder="Release Year" required/>
+        <label for="genre-input">Genre:</label>
+        <input id="genre-input" type="text" list="genre" required />
+        <datalist id="genre">
+            <option value="Action"></option>
+            <option value="Action-adventure"></option>
+            <option value="Arcade"></option>
+            <option value="Battle royale"></option>
+            <option value="Beat 'em up"></option>
+            <option value="Card game"></option>
+            <option value="Casual"></option>
+            <option value="City-building"></option>
+            <option value="Deck-building"></option>
+            <option value="Dungeon crawler"></option>
+            <option value="Fighting"></option>
+            <option value="First-person shooter"></option>
+            <option value="Fitness"></option>
+            <option value="Flight simulator"></option>
+            <option value="Horror"></option>
+            <option value="Interactive fiction"></option>
+            <option value="Life simulation"></option>
+            <option value="Metroidvania"></option>
+            <option value="MMORPG"></option>
+            <option value="MOBA"></option>
+            <option value="Music and rhythm"></option>
+            <option value="Party"></option>
+            <option value="Platformer"></option>
+            <option value="Puzzle"></option>
+            <option value="Racing"></option>
+            <option value="Real-time strategy"></option>
+            <option value="Rhythm"></option>
+            <option value="Role-playing game"></option>
+            <option value="Roguelike"></option>
+            <option value="Roguelite"></option>
+            <option value="Sandbox"></option>
+            <option value="Simulation"></option>
+            <option value="Sports"></option>
+            <option value="Stealth"></option>
+            <option value="Strategy"></option>
+            <option value="Survival"></option>
+            <option value="Survival horror"></option>
+            <option value="Tactical shooter"></option>
+            <option value="Third-person shooter"></option>
+            <option value="Tower defense"></option>
+            <option value="Turn-based strategy"></option>
+            <option value="Visual novel"></option>
+            <option value="Walking simulator"></option>
+            <option value="Wargame"></option>
+            <option value="Western"></option>
+        </datalist>
+        <label for="boxArtUrl">Box Art URL:</label>
+        <input id="boxArtUrl" type="url" placeholder="https://example.com" pattern="https://.*" />
+        <button type="submit">Add Game</button>
+    </form>
+    <div id="games-grid"></div>
+</body>
+</html>
