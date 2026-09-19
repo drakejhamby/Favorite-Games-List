@@ -1,0 +1,7 @@
+
+> favorite-games-list-frontend@1.0.0 dev
+> live-server --host 127.0.0.1 --strictPort
+
+[32mServing "--host" at http://127.0.0.1:8080[39m
+[36mReady for changes[39m
+[0mGET / [33m404[0m 7.986 ms - 139[0m

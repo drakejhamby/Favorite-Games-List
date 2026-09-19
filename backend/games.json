@@ -1,42 +1,10 @@
 [
-    {
-        "title": "The Legend of Zelda: Breath of the Wild",
-        "platform": "Nintendo Switch",
-        "esrbRating": "E10+",
-        "releaseYear": 2017,
-        "genre": "Action-adventure",
-        "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTf8uyfG8KwBPtOE-ND0XixrW7B0-W-16xCMsG3-Lhw&s=10"
-    },
-    {
-        "title": "Minecraft",
-        "platform": "PC",
-        "esrbRating": "E10+",
-        "releaseYear": 2011,
-        "genre": "Sandbox",
-        "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJGoXAGIggsYMT0qIJL5bHkDa0_IC4MTSqZm3NADQttQ&s=10"
-    },
-    {
-        "title": "God of War",
-        "platform": "PlayStation 4",
-        "esrbRating": "M",
-        "releaseYear": 2018,
-        "genre": "Action-adventure",
-        "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-hFLY3GZdzMhgLgN0jbXqbYQudd7atjG9ft-wFWn9SQ&s=10"
-    },
-    {
-        "title": "Mario Kart 8 Deluxe",
-        "platform": "Nintendo Switch",
-        "esrbRating": "E",
-        "releaseYear": 2017,
-        "genre": "Racing",
-        "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKq17UQX0oTflasaUAnrKnUvrdoBpLaNZCX08dPQtN7w&s=10"
-    },
-    {
-        "title": "Stardew Valley",
-        "platform": "PC",
-        "esrbRating": "E10+",
-        "releaseYear": 2016,
-        "genre": "Simulation",
-        "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCS2gomFC-yV_c86Jje7C2leIHV6GYU9ZS_hai5xXjZg&s"
-    }
+  {
+    "id": 1789858708077,
+    "title": "Super Mario Sunshine",
+    "platform": "GameCube",
+    "releaseYear": "2001",
+    "genre": "Action-adventure",
+    "boxArtUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc25oxk5wq25kN2Y4MkdhvTTYqRWBxm2Of3Ki46XrflQ&s"
+  }
 ]

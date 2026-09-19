@@ -37,12 +37,13 @@ app.get('/api/games', async (req, res) => {
 });
 
 // POST games path
-app.post('/api/games', (req, res) => {
+app.post('/api/games', async (req, res) => {
     // Get the current list of games
-    const games = getGames();
+    const games = await getGames();
 
     // Create a new game using the fields
     const newGame = {
+        id: Date.now(),
         title: req.body.title,
         platform: req.body.platform,
         esrbRating: req.body.esrbRating,
@@ -52,7 +53,7 @@ app.post('/api/games', (req, res) => {
     };
 
     games.push(newGame);
-    saveGames(games);
+    await saveGames(games);
 
     return res.status(201).json(newGame);
 })
